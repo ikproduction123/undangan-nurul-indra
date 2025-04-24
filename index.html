@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan Nurul & Indra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Adinda+Script&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdf7ee;
+      color: #4e342e;
+    }
+    .landing {
+      height: 100vh;
+      background: linear-gradient(#fefae0, #d7ccc8);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3b/Wayang_Kulit_Shadow_Play.jpg');
+      background-blend-mode: overlay;
+      background-size: cover;
+    }
+    .landing h1 {
+      font-family: 'Adinda Script', cursive;
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+    .landing p {
+      margin-top: 0;
+      font-size: 1.2em;
+    }
+    .btn-open {
+      margin-top: 1em;
+      background-color: #6d4c41;
+      color: white;
+      border: none;
+      padding: 0.8em 2em;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 2em;
+    }
+    .section h2 {
+      font-family: 'Adinda Script', cursive;
+      font-size: 2em;
+      color: #5d4037;
+    }
+    .account {
+      background-color: #efebe9;
+      border-radius: 8px;
+      padding: 1em;
+      margin-top: 1em;
+    }
+    .btn-copy {
+      background-color: #6d4c41;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="landing">
+    <p>The Wedding of</p>
+    <h1>Nurul & Indra</h1>
+    <button class="btn-open" onclick="document.getElementById('main').scrollIntoView({behavior: 'smooth'})">Buka Undangan</button>
+  </div>
+
+  <div id="main">
+    <div class="section">
+      <h2>Assalamu'alaikum Wr. Wb.</h2>
+      <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami:</p>
+      <p><strong>Dwi Retno Nurul Fatimah</strong><br>Putri dari Bpk. Sinung Karetno & Ibu Pairah</p>
+      <p><strong>Indra Yulianto</strong><br>Putra dari Bpk. Sumiran & Ibu Marsiyem</p>
+    </div>
+
+    <div class="section">
+      <h2>Tanggal & Tempat</h2>
+      <p>Minggu, 3 Agustus 2025<br>Rumah Mempelai Wanita<br>Gondangrejo, Gari, Wonosari, Gunungkidul</p>
+    </div>
+
+    <div class="section">
+      <h2>Konfirmasi Kehadiran</h2>
+      <a href="https://wa.me/628xxxxxxxxxx" class="btn-copy">Konfirmasi via WhatsApp</a>
+    </div>
+
+    <div class="section">
+      <h2>Kirim Tanda Kasih</h2>
+      <div class="account">
+        <p><strong>BRI 698701014949531</strong><br>a.n. Dwi Retno Nurul Fatimah</p>
+        <button class="btn-copy" onclick="navigator.clipboard.writeText('698701014949531')">Salin Nomor Rekening</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Terima Kasih</h2>
+      <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+      <p>Wassalamu'alaikum Wr. Wb.</p>
+    </div>
+  </div>
+</body>
+</html>
